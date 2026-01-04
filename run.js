@@ -143,7 +143,7 @@
     let countMap = {}
 
     let urls = {
-        "Quixel2": "https://www.fab.com/i/listings/search?seller=quixel&is_free=1"
+        "Quixel2": "https://www.fab.com/i/listings/search?channel=quixel&is_free=1"
         //这里如果仅仅只需要其中一种类型资源，比如只需要UE的，那可以只保留UE的链接
     }
     const mainTasks = Object.entries(urls).map(async ([name, url]) => {
