@@ -143,10 +143,6 @@
     let countMap = {}
 
     let urls = {
-        //"UE": "https://www.fab.com/i/listings/search?channels=unreal-engine&is_free=1&sort_by=-createdAt",
-        //"Unity": "https://www.fab.com/i/listings/search?channels=unity&is_free=1&sort_by=-createdAt",
-        //"UEFN": "https://www.fab.com/i/listings/search?channels=uefn&is_free=1&sort_by=-createdAt",
-        //"Quixel": "https://www.fab.com/i/listings/search?currency=USD&seller=Quixel&sort_by=listingTypeWeight",
         "Quixel2": "https://www.fab.com/i/listings/search?seller=quixel&is_free=1"
         //这里如果仅仅只需要其中一种类型资源，比如只需要UE的，那可以只保留UE的链接
     }
