@@ -143,13 +143,28 @@
     let countMap = {}
 
     let urls = {
-        "UE": "https://www.fab.com/i/listings/search?channels=unreal-engine&is_free=1&sort_by=-createdAt",
-        "Unity": "https://www.fab.com/i/listings/search?channels=unity&is_free=1&sort_by=-createdAt",
-        "UEFN": "https://www.fab.com/i/listings/search?channels=uefn&is_free=1&sort_by=-createdAt",
-        "Quixel": "https://www.fab.com/i/listings/search?currency=USD&seller=Quixel&sort_by=listingTypeWeight",
-        "Quixel2": "https://www.fab.com/i/listings/search?channels=quixel&is_free=1&sort_by=-createdAt"
+        //"UE": "https://www.fab.com/i/listings/search?channels=unreal-engine&is_free=1&sort_by=-createdAt",
+        //"Unity": "https://www.fab.com/i/listings/search?channels=unity&is_free=1&sort_by=-createdAt",
+        //"UEFN": "https://www.fab.com/i/listings/search?channels=uefn&is_free=1&sort_by=-createdAt",
+        //"Quixel": "https://www.fab.com/i/listings/search?currency=USD&seller=Quixel&sort_by=listingTypeWeight",
+        //"Quixel2": "https://www.fab.com/i/listings/search?channels=quixel&is_free=1&sort_by=-createdAt",
+        "3DModels": "https://www.fab.com/i/listings/search?product_types=3d&is_free=1&sort_by=firstPublishedAt",
+        "MaterialsTextures": "https://www.fab.com/i/listings/search?product_types=materials&is_free=1&sort_by=firstPublishedAt",
+        "SpritesFlipbooks": "https://www.fab.com/i/listings/search?product_types=sprites&is_free=1&sort_by=firstPublishedAt",
+        "Decals": "https://www.fab.com/i/listings/search?product_types=decals&is_free=1&sort_by=firstPublishedAt",
+        "Brushes": "https://www.fab.com/i/listings/search?product_types=brushes&is_free=1&sort_by=firstPublishedAt",
+        "HDRI": "https://www.fab.com/i/listings/search?product_types=hdri&is_free=1&sort_by=firstPublishedAt",
+        "Animations": "https://www.fab.com/i/listings/search?product_types=animations&is_free=1&sort_by=firstPublishedAt",
+        "Audio": "https://www.fab.com/i/listings/search?product_types=audio&is_free=1&sort_by=firstPublishedAt",
+        "VFX": "https://www.fab.com/i/listings/search?product_types=vfx&is_free=1&sort_by=firstPublishedAt",
+        "UI": "https://www.fab.com/i/listings/search?product_types=ui&is_free=1&sort_by=firstPublishedAt",
+        "GameSystems": "https://www.fab.com/i/listings/search?product_types=game-systems&is_free=1&sort_by=firstPublishedAt",
+        "GameTemplates": "https://www.fab.com/i/listings/search?product_types=game-templates&is_free=1&sort_by=firstPublishedAt",
+        "ToolsPlugins": "https://www.fab.com/i/listings/search?product_types=tools-plugins&is_free=1&sort_by=firstPublishedAt",
+        "TutorialsExamples": "https://www.fab.com/i/listings/search?product_types=tutorials&is_free=1&sort_by=firstPublishedAt"
+}
         //这里如果仅仅只需要其中一种类型资源，比如只需要UE的，那可以只保留UE的链接
-    }
+    
     const mainTasks = Object.entries(urls).map(async ([name, url]) => {
         console.log(`start by name=${name} url=${url}`)
         let nextPage = null
