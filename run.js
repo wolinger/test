@@ -159,20 +159,20 @@
         //"ToolsPlugins": "https://www.fab.com/i/listings/search?product_types=tools-plugins&is_free=1&sort_by=price_asc",
         //"TutorialsExamples": "https://www.fab.com/i/listings/search?product_types=tutorials&is_free=1&sort_by=price_asc"
 
-        "3DModels": "https://www.fab.com/i/listings/search?product_types=3d&is_free=1&sort_by=title_asc",
-        "MaterialsTextures": "https://www.fab.com/i/listings/search?product_types=materials&is_free=1&sort_by=title_asc",
-        "SpritesFlipbooks": "https://www.fab.com/i/listings/search?product_types=sprites&is_free=1&sort_by=title_asc",
-        "Decals": "https://www.fab.com/i/listings/search?product_types=decals&is_free=1&sort_by=title_asc",
-        "Brushes": "https://www.fab.com/i/listings/search?product_types=brushes&is_free=1&sort_by=title_asc",
-        "HDRI": "https://www.fab.com/i/listings/search?product_types=hdri&is_free=1&sort_by=title_asc",
-        "Animations": "https://www.fab.com/i/listings/search?product_types=animations&is_free=1&sort_by=title_asc",
-        "Audio": "https://www.fab.com/i/listings/search?product_types=audio&is_free=1&sort_by=title_asc",
-        "VFX": "https://www.fab.com/i/listings/search?product_types=vfx&is_free=1&sort_by=title_asc",
-        "UI": "https://www.fab.com/i/listings/search?product_types=ui&is_free=1&sort_by=title_asc",
-        "GameSystems": "https://www.fab.com/i/listings/search?product_types=game-systems&is_free=1&sort_by=title_asc",
-        "GameTemplates": "https://www.fab.com/i/listings/search?product_types=game-templates&is_free=1&sort_by=title_asc",
-        "ToolsPlugins": "https://www.fab.com/i/listings/search?product_types=tools-plugins&is_free=1&sort_by=title_asc",
-        "TutorialsExamples": "https://www.fab.com/i/listings/search?product_types=tutorials&is_free=1&sort_by=title_asc"
+        "3DModels": "https://www.fab.com/i/listings/search?product_types=3d&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "MaterialsTextures": "https://www.fab.com/i/listings/search?product_types=materials&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "SpritesFlipbooks": "https://www.fab.com/i/listings/search?product_types=sprites&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "Decals": "https://www.fab.com/i/listings/search?product_types=decals&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "Brushes": "https://www.fab.com/i/listings/search?product_types=brushes&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "HDRI": "https://www.fab.com/i/listings/search?product_types=hdri&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "Animations": "https://www.fab.com/i/listings/search?product_types=animations&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "Audio": "https://www.fab.com/i/listings/search?product_types=audio&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "VFX": "https://www.fab.com/i/listings/search?product_types=vfx&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "UI": "https://www.fab.com/i/listings/search?product_types=ui&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "GameSystems": "https://www.fab.com/i/listings/search?product_types=game-systems&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "GameTemplates": "https://www.fab.com/i/listings/search?product_types=game-templates&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "ToolsPlugins": "https://www.fab.com/i/listings/search?product_types=tools-plugins&is_free=1&sort_by=title_asc&published_after=2022-01-01",
+        "TutorialsExamples": "https://www.fab.com/i/listings/search?product_types=tutorials&is_free=1&sort_by=title_asc&published_after=2022-01-01"
     }
 
     const mainTasks = Object.entries(urls).map(async ([name, url]) => {
